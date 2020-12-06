@@ -1,6 +1,6 @@
 package scheduler
 
-import "imooc.com/joizhang/learn-golang/crawler/types"
+import "golang-demo/crawler/types"
 
 type Scheduler interface {
 	Submit(types.Request)

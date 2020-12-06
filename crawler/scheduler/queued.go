@@ -1,8 +1,6 @@
 package scheduler
 
-import (
-	"imooc.com/joizhang/learn-golang/crawler/types"
-)
+import "golang-demo/crawler/types"
 
 // Request队列和Worker队列
 type QueuedScheduler struct {
