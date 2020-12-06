@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
+	"golang-demo/functional/fib"
 	"os"
 
 	"bufio"
-
-	"imooc.com/joizhang/learn-golang/functional/fib"
 )
 
 func tryDefer() {
