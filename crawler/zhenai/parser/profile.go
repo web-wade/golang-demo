@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"imooc.com/joizhang/learn-golang/crawler/types"
-	"imooc.com/joizhang/learn-golang/crawler/zhenai/model"
+	"golang-demo/crawler/types"
+	"golang-demo/crawler/zhenai/model"
 	"regexp"
 	"strconv"
 )

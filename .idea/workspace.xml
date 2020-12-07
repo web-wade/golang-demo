@@ -11,14 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10c2002a-cecc-4fed-ab95-44c69a596d49" name="默认的" comment="修改路径">
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/engine/concurrent.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/engine/concurrent.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/engine/simple.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/engine/simple.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/engine/simple_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/engine/simple_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/scheduler/queued.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/scheduler/queued.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/scheduler/scheduler.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/scheduler/scheduler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/scheduler/simple.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/scheduler/simple.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/engine/concurrent_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/engine/concurrent_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/zhenai/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/zhenai/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/zhenai/parser/citylist.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/zhenai/parser/citylist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/zhenai/parser/cityuserlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/zhenai/parser/cityuserlist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/zhenai/parser/profile.go" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/zhenai/parser/profile.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,16 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go 构建.go build golang-demo/crawler/zhenai">
+    <configuration name="go build golang-demo/crawler/zhenai" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/crawler/zhenai/main.go" />
+      <package value="golang-demo/crawler/zhenai" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build golang-demo/tree/treeentry" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-demo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -61,6 +69,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build golang-demo/crawler/zhenai" />
         <item itemvalue="Go 构建.go build golang-demo/tree/treeentry" />
       </list>
     </recent_temporary>
@@ -79,6 +88,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改路径" />
@@ -96,29 +106,33 @@
       <screen x="0" y="25" width="1920" height="979" />
     </state>
     <state x="1090" y="330" key="EditFileWatcherDialog/0.25.1920.979@0.25.1920.979" timestamp="1607247568065" />
-    <state width="1478" height="241" key="GridCell.Tab.0.bottom" timestamp="1607250519998">
+    <state width="1275" height="224" key="GridCell.Tab.0.bottom" timestamp="1607263500456">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1478" height="241" key="GridCell.Tab.0.bottom/0.25.1920.979@0.25.1920.979" timestamp="1607250519998" />
-    <state width="1478" height="241" key="GridCell.Tab.0.center" timestamp="1607250519997">
+    <state width="1275" height="224" key="GridCell.Tab.0.bottom/0.25.1920.979@0.25.1920.979" timestamp="1607263500456" />
+    <state width="1275" height="224" key="GridCell.Tab.0.center" timestamp="1607263500456">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1478" height="241" key="GridCell.Tab.0.center/0.25.1920.979@0.25.1920.979" timestamp="1607250519997" />
-    <state width="1478" height="241" key="GridCell.Tab.0.left" timestamp="1607250519997">
+    <state width="1275" height="224" key="GridCell.Tab.0.center/0.25.1920.979@0.25.1920.979" timestamp="1607263500456" />
+    <state width="1275" height="224" key="GridCell.Tab.0.left" timestamp="1607263500456">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1478" height="241" key="GridCell.Tab.0.left/0.25.1920.979@0.25.1920.979" timestamp="1607250519997" />
-    <state width="1478" height="241" key="GridCell.Tab.0.right" timestamp="1607250519998">
+    <state width="1275" height="224" key="GridCell.Tab.0.left/0.25.1920.979@0.25.1920.979" timestamp="1607263500456" />
+    <state width="1275" height="224" key="GridCell.Tab.0.right" timestamp="1607263500456">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1478" height="241" key="GridCell.Tab.0.right/0.25.1920.979@0.25.1920.979" timestamp="1607250519998" />
+    <state width="1275" height="224" key="GridCell.Tab.0.right/0.25.1920.979@0.25.1920.979" timestamp="1607263500456" />
     <state x="922" y="184" key="SettingsEditor" timestamp="1607247569368">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
     <state x="922" y="184" key="SettingsEditor/0.25.1920.979@0.25.1920.979" timestamp="1607247569368" />
-    <state x="736" y="219" key="Vcs.Push.Dialog.v2" timestamp="1607248400465">
+    <state x="736" y="219" key="Vcs.Push.Dialog.v2" timestamp="1607251133324">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state x="736" y="219" key="Vcs.Push.Dialog.v2/0.25.1920.979@0.25.1920.979" timestamp="1607248400465" />
+    <state x="736" y="219" key="Vcs.Push.Dialog.v2/0.25.1920.979@0.25.1920.979" timestamp="1607251133324" />
+    <state x="938" y="287" width="604" height="490" key="find.popup" timestamp="1607261871919">
+      <screen x="0" y="25" width="1920" height="979" />
+    </state>
+    <state x="938" y="287" width="604" height="490" key="find.popup/0.25.1920.979@0.25.1920.979" timestamp="1607261871919" />
   </component>
 </project>

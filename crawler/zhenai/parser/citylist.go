@@ -1,8 +1,9 @@
 package parser
 
 import (
-	"imooc.com/joizhang/learn-golang/crawler/types"
 	"regexp"
+
+	"golang-demo/crawler/types"
 )
 
 var CityListRe = regexp.MustCompile(`<a href="(http://www.zhenai.com/zhenghun/[0-9a-z]+)"[^>]*>([^<]+)</a>`)

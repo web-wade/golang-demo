@@ -1,10 +1,10 @@
 package main
 
 import (
-	"imooc.com/joizhang/learn-golang/crawler/engine"
-	"imooc.com/joizhang/learn-golang/crawler/scheduler"
-	"imooc.com/joizhang/learn-golang/crawler/types"
-	"imooc.com/joizhang/learn-golang/crawler/zhenai/parser"
+	"golang-demo/crawler/engine"
+	"golang-demo/crawler/scheduler"
+	"golang-demo/crawler/types"
+	"golang-demo/crawler/zhenai/parser"
 )
 
 func main() {
